@@ -11,17 +11,6 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
-# latex build artefacts
-report/build.log
-report/*.aux
-report/*.log
-report/*.out
-report/*.bbl
-report/*.blg
-report/*.synctex.gz
-report/*.fdb_latexmk
-report/*.fls
-
 # os
 .DS_Store
 Thumbs.db
