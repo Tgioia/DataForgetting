@@ -1,7 +1,6 @@
 # Query-Aware Data Forgetting for Photo Collections
 
 Implementation and experimental study for the **Data Reduction Practical**
-(Roma Tre / Utrecht University, Prof. Y. Velegrakis).
 
 Your phone is full of photos and you must delete some. We treat this as the
 **data forgetting** problem of Rico, Siebes & Velegrakis, *Stochastic Submodular
@@ -40,7 +39,6 @@ experiments/
   exp4_complexity.py        runtime vs theoretical complexity (Fig. exp4)
   run_all.py                run everything
 results/        generated figures (pdf/png) and tables (csv)
-report/         ACM (acmart, sigconf) LaTeX report + compiled main.pdf
 scripts/        download_data.py (fetches the dataset from Google Drive)
 ```
 
@@ -55,8 +53,3 @@ cd experiments && python run_all.py      # regenerates all tables and figures (~
 The first data load parses the 690 MB `photos.csv` and caches it as `photos.npy`
 for fast subsequent runs. Data files are **not** committed (see `.gitignore`);
 `download_data.py` retrieves them.
-
-## Validation
-The objective is unit-checked against the worked examples of the source paper:
-IndepDF scores reproduce the published `(0.28, 0.11, 0.61)` (Example 5.7), and
-the Shapley efficiency axiom `Σ φ(d) = f(D) = 1` holds on every instance.
