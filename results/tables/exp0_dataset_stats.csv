@@ -1,0 +1,13 @@
+stat,value
+n_photos,41620
+dim,2048
+m_queries,443
+retrieved_universe_R,10937
+never_retrieved,30683
+answer_size_min,1
+answer_size_max,100
+answer_size_mean,32.55
+answer_size_median,26
+answer_set_diversity,0.2129
+keep_half_budget,20810
+keep_half_trivial(f=1),True

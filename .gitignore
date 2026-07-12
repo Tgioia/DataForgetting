@@ -1,0 +1,27 @@
+# data (downloaded separately via scripts/download_data.py)
+data/*.csv
+data/*.npy
+data/*.zip
+data/__MACOSX/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# latex build artefacts
+report/build.log
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+report/*.fdb_latexmk
+report/*.fls
+
+# os
+.DS_Store
+Thumbs.db
